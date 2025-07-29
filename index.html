@@ -9,19 +9,60 @@
     <link rel="stylesheet" href="src/output.css" />
     <title>Frontend Mentor | FAQ accordion</title>
   </head>
-  <body>
-    FAQs What is Frontend Mentor, and how will it help me? Frontend Mentor offers realistic coding challenges to help
-    developers improve their frontend coding skills with projects in HTML, CSS, and JavaScript. It's suitable for all
-    levels and ideal for portfolio building. Is Frontend Mentor free? Yes, Frontend Mentor offers both free and premium
-    coding challenges, with the free option providing access to a range of projects suitable for all skill levels. Can I
-    use Frontend Mentor projects in my portfolio? Yes, you can use projects completed on Frontend Mentor in your
-    portfolio. It's an excellent way to showcase your skills to potential employers! How can I get help if I'm stuck on
-    a Frontend Mentor challenge? The best place to get help is inside Frontend Mentor's Discord community. There's a
-    help channel where you can ask questions and seek support from other community members.
-
-    <div class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by
-      <a href="#">Your Name Here</a>.
+  <body class="bg-purple-100 text-purple-950">
+    <div class="bg-[url(/assets/images/background-pattern-desktop.svg)] h-70"></div>
+    <div class="bg-white h-[100%] -mt-25 w-[90%] mx-auto rounded-xl p-8 mb-20 max-w-2xl min-w-[340px]">
+      <div class="w-[90%] flex flex-row gap-6">
+        <img src="assets/images/icon-star.svg" alt="a Star" class="w-7" />
+        <h1 class="text-4xl text-purple-950 font-bold">FAQs</h1>
+      </div>
+      <div>
+        <div class="flex flex-row justify-between">
+          <h2 class="font-semibold text-[18px] text-base/5 mb-6 mt-6">
+            What is Frontend Mentor, and how will it help me?
+          </h2>
+          <img id="toggleBtn1" src="/assets/images/icon-plus.svg" alt="" class="w-8" />
+        </div>
+        <p id="faq1" class="text[16px] hidden">
+          Frontend Mentor offers realistic coding challenges to help developers improve their frontend coding skills
+          with projects in HTML, CSS, and JavaScript. It's suitable for all levels and ideal for portfolio building.
+        </p>
+      </div>
+      <div>
+        <div class="flex flex-row justify-between">
+          <h2 class="font-semibold text-[18px] text-base/5 mb-6 mt-6">Is Frontend Mentor free?</h2>
+          <img id="toggleBtn2" src="/assets/images/icon-plus.svg" alt="" class="w-8" />
+        </div>
+        <p id="faq2" class="text[16px] hidden">
+          Yes, Frontend Mentor offers both free and premium coding challenges, with the free option providing access to
+          a range of projects suitable for all skill levels.
+        </p>
+      </div>
+      <div class="">
+        <div class="flex flex-row justify-between">
+          <h2 class="font-semibold text-[18px] text-base/5 mb-6 mt-6">
+            Can I use Frontend Mentor projects in my portfolio?
+          </h2>
+          <img id="toggleBtn3" src="/assets/images/icon-plus.svg" alt="" class="w-8" />
+        </div>
+        <p id="faq3" class="text[16px] hidden">
+          Yes, you can use projects completed on Frontend Mentor in your portfolio. It's an excellent way to showcase
+          your skills to potential employers!
+        </p>
+      </div>
+      <div>
+        <div class="flex flex-row justify-between">
+          <h2 class="font-semibold text-[18px] text-base/5 mb-6 mt-6">
+            How can I get help if I'm stuck on a challenge?
+          </h2>
+          <img id="toggleBtn4" src="/assets/images/icon-plus.svg" alt="" class="w-8" />
+        </div>
+        <p id="faq4" class="text[16px] hidden">
+          The best place to get help is inside Frontend Mentor's Discord community. There's a help channel where you can
+          ask questions and seek support from other community members.
+        </p>
+      </div>
     </div>
+    <script src="src/main.js"></script>
   </body>
 </html>
