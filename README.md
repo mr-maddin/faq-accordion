@@ -46,12 +46,6 @@ git clone https://github.com/mr-maddin/faq-accordion.git
 
 ---
 
-## 📸 Design-Vorschau
-
-![Design Preview](preview.jpg)
-
----
-
 ## 📣 Feedback oder Fragen?
 
 Wenn du Feedback geben oder Fragen stellen möchtest, kannst du das gerne auf Frontend Mentor oder direkt auf GitHub tun.
