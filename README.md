@@ -33,7 +33,7 @@ Die Aufgabe bestand darin, ein **FAQ-Akkordeon** nach vorgegebenem Design nachzu
 
 ## 🚀 Projektlink
 
-git clone [<dein-repo-link>](https://github.com/mr-maddin/faq-accordion.git)
+git clone https://github.com/mr-maddin/faq-accordion.git
 
 ---
 
